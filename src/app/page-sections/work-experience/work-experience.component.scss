@@ -15,7 +15,11 @@
 }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
+}
+
+p {
+  text-align: left;
 }
 
 ::ng-deep .p-accordion {
@@ -24,7 +28,13 @@ img {
   max-width: 100%;
 }
 
-@media only screen and (max-device-width: 920px) {
+::ng-deep .p-accordion-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+@media (max-width: 920px) {
   .list-view {
     max-width: 80%;
     margin-left: auto;
@@ -36,7 +46,7 @@ img {
   }
 }
 
-@media only screen and (min-device-width: 921px) {
+@media (min-width: 921px) {
   .list-view {
     display: none;
   }

@@ -7,4 +7,7 @@ import {Component} from '@angular/core';
 })
 export class ContactComponent {
 
+  linkedInURL: string = "www.linkedin.com/in/nathaniel-weiland-4a6124241";
+  gitHubURL: string = "www.github.com/NathanWeiland10";
+
 }
