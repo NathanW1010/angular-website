@@ -21,7 +21,7 @@ export class ProjectsComponent {
       0: {
         items: 1,
       },
-      750: {
+      800: {
         items: 2,
       },
       1600: {

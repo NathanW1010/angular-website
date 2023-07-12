@@ -7,7 +7,8 @@ export const PROJECT_LIST: Project[] = [
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectImgCover: "pc-icon.png",
-    projectGif: "computerGif.gif"
+    projectGif: "computerGif.gif",
+    playOverWeb: false
   },
   {
     title: "Example Project #2",
@@ -15,7 +16,8 @@ export const PROJECT_LIST: Project[] = [
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectImgCover: "pc-icon.png",
-    projectGif: "computerGif.gif"
+    projectGif: "computerGif.gif",
+    playOverWeb: true
   },
   {
     title: "Example Project #3",
@@ -23,7 +25,8 @@ export const PROJECT_LIST: Project[] = [
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectImgCover: "pc-icon.png",
-    projectGif: "computerGif.gif"
+    projectGif: "computerGif.gif",
+    playOverWeb: true
   },
   {
     title: "Example Project #4",
@@ -31,7 +34,8 @@ export const PROJECT_LIST: Project[] = [
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectImgCover: "pc-icon.png",
-    projectGif: "computerGif.gif"
+    projectGif: "computerGif.gif",
+    playOverWeb: true
   },
   {
     title: "Example Project #5",
@@ -39,6 +43,7 @@ export const PROJECT_LIST: Project[] = [
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectImgCover: "pc-icon.png",
-    projectGif: "computerGif.gif"
+    projectGif: "computerGif.gif",
+    playOverWeb: true
   },
 ]

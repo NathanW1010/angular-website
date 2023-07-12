@@ -11,7 +11,16 @@
                [id]="slide.isCentered ? 'image-only': ''">
           <img src="/assets/images/{{project.projectGif}}" alt="Project gif" [id]="slide.isCentered ? '': 'image-only'">
           <p>{{project.description}}</p>
-          <a href="{{project.gitHubLink}}">GitHub Repository</a>
+          <div class="link-container">
+            <a href="{{project.gitHubLink}}" class="link-margin">
+              <p-button label="GitHub Repository" icon="pi pi-external-link" styleClass="p-button-outlined"></p-button>
+            </a>
+            <div *ngIf="project.playOverWeb" class="link-margin">
+              <a href="{{project.playOverWebLink}}">
+                <p-button label="Play via Web Browser" icon="pi pi-external-link" styleClass="p-button-outlined"></p-button>
+              </a>
+            </div>
+          </div>
         </p-card>
       </ng-template>
     </ng-container>

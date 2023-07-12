@@ -12,14 +12,23 @@ img {
   margin-right: auto;
 }
 
+.link-container {
+  margin-top: 1rem;
+  min-height: 100px;
+}
+
+.link-margin {
+  margin-top: 1rem;
+}
+
 #image-only {
   display: none;
 }
 
 :not(.centered-card) img {
   transform: scale(1.5);
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .centered-card img {
@@ -28,12 +37,21 @@ img {
   margin-bottom: 5rem;
 }
 
-:not(.centered-card)  {
-  transition: all 1000ms;
+::ng-deep .owl-stage {
+  display: flex;
+  align-items: center;
 }
 
-.centered-card {
-  transition: all 1000ms;
+::ng-deep .center {
+  height: 100%;
+  width: 7% !important;
+  .p-card {
+    height: 650px;
+  }
+}
+
+::ng-deep .owl-item > div {
+  transition: margin 0.4s ease;
 }
 
 ::ng-deep .border-card .p-card {
@@ -41,7 +59,7 @@ img {
   border: 6px solid var(--primary-color);
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
   .container  {
     margin-right: auto;
     margin-left: auto;
@@ -49,8 +67,8 @@ img {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 460px) {
   img {
-    max-width: 38%;
+    max-width: 33%;
   }
 }

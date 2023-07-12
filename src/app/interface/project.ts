@@ -5,4 +5,6 @@ export interface Project {
   gitHubLink: string
   projectImgCover: string
   projectGif: string
+  playOverWeb: boolean
+  playOverWebLink?: string
 }
