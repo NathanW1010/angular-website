@@ -1,0 +1,28 @@
+::ng-deep .border-card .p-card {
+  border-radius: 15px;
+  border: 6px solid var(--primary-color);
+}
+
+::ng-deep .border-card .p-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.border-card .contact-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.border-card .contact-links p-button {
+  margin: .5rem;
+}
+
+.container {
+  text-align: center;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 3rem;
+}

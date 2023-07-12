@@ -1,0 +1,56 @@
+h2 {
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 3rem;
+}
+
+img {
+  max-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#image-only {
+  display: none;
+}
+
+:not(.centered-card) img {
+  transform: scale(1.5);
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.centered-card img {
+  transform: scale(2.5);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+:not(.centered-card)  {
+  transition: all 1000ms;
+}
+
+.centered-card {
+  transition: all 1000ms;
+}
+
+::ng-deep .border-card .p-card {
+  border-radius: 15px;
+  border: 6px solid var(--primary-color);
+}
+
+@media only screen and (max-device-width: 750px) {
+  .container  {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-device-width: 400px) {
+  img {
+    max-width: 38%;
+  }
+}

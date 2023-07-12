@@ -1,0 +1,19 @@
+<p-divider id="projects"></p-divider>
+<div class="container">
+  <h2>Projects</h2>
+  <owl-carousel-o [options]="customOwlOptions">
+    <ng-container *ngFor="let project of projects" id="project-slide">
+      <ng-template let-slide carouselSlide>
+        <p-card header="{{project.title}}" subheader="{{project.projectType}}"
+                class="flex align-items-center justify-content-center font-bold m-2 border-card"
+                [ngClass]="slide.isCentered ? 'centered-card': ''">
+          <img src="/assets/images/{{project.projectImgCover}}" alt="Project image"
+               [id]="slide.isCentered ? 'image-only': ''">
+          <img src="/assets/images/{{project.projectGif}}" alt="Project gif" [id]="slide.isCentered ? '': 'image-only'">
+          <p>{{project.description}}</p>
+          <a href="{{project.gitHubLink}}">GitHub Repository</a>
+        </p-card>
+      </ng-template>
+    </ng-container>
+  </owl-carousel-o>
+</div>

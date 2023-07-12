@@ -1,0 +1,47 @@
+.container {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.timeline-container {
+  display: flex;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.colored-button {
+  color: #CA87D4;
+}
+
+img {
+  max-width: 100%;
+}
+
+::ng-deep .p-accordion {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+@media only screen and (max-device-width: 920px) {
+  .list-view {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .timeline-view {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 921px) {
+  .list-view {
+    display: none;
+  }
+
+  .timeline-view {
+    display: block;
+  }
+}
