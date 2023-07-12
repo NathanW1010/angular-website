@@ -18,8 +18,11 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-builders/custom-webpack:browser",
           "options": {
+            "customWebpackConfig": {
+              "path": "./custom-webpack.config.js"
+            },
             "outputPath": "dist/nweiland-website",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -33,10 +36,7 @@
             "styles": [
               "src/styles.scss",
               "primeng/resources/themes/vela-purple/theme.css",
-              "node_modules/primeng/resources/primeng.min.css",
-              "node_modules/primeicons/primeicons.css",
-              "node_modules/owl.carousel/dist/assets/owl.carousel.css",
-              "node_modules/owl.carousel/dist/assets/owl.theme.default.css"
+              "node_modules/primeicons/primeicons.css"
             ],
             "scripts": []
           },
@@ -67,7 +67,12 @@
               "optimization": false,
               "vendorChunk": true,
               "extractLicenses": false,
-              "sourceMap": true,
+              "sourceMap": {
+                "scripts": true,
+                "styles": true,
+                "hidden": true,
+                "vendor": true
+              },
               "namedChunks": true
             }
           },
@@ -92,8 +97,12 @@
           }
         },
         "test": {
-          "builder": "@angular-devkit/build-angular:karma",
+          "builder": "@angular-builders/custom-webpack:browser",
           "options": {
+            "customWebpackConfig": {
+              "path": "src/custom-webpack.config.js",
+              "replaceDuplicatePlugins": true
+            },
             "main": "src/test.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",

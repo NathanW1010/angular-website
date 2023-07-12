@@ -6,7 +6,6 @@ export const PROJECT_LIST: Project[] = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Enim sed faucibus turpis in eu.",
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
-    projectImgCover: "pc-icon.png",
     projectGif: "computerGif.gif",
     playOverWeb: false
   },
@@ -15,7 +14,6 @@ export const PROJECT_LIST: Project[] = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Enim sed faucibus turpis in eu.",
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
-    projectImgCover: "pc-icon.png",
     projectGif: "computerGif.gif",
     playOverWeb: true
   },
@@ -24,7 +22,6 @@ export const PROJECT_LIST: Project[] = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Enim sed faucibus turpis in eu.",
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
-    projectImgCover: "pc-icon.png",
     projectGif: "computerGif.gif",
     playOverWeb: true
   },
@@ -33,7 +30,6 @@ export const PROJECT_LIST: Project[] = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Enim sed faucibus turpis in eu.",
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
-    projectImgCover: "pc-icon.png",
     projectGif: "computerGif.gif",
     playOverWeb: true
   },
@@ -42,7 +38,6 @@ export const PROJECT_LIST: Project[] = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Enim sed faucibus turpis in eu.",
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
-    projectImgCover: "pc-icon.png",
     projectGif: "computerGif.gif",
     playOverWeb: true
   },

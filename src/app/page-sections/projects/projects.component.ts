@@ -2,8 +2,6 @@ import {Component} from '@angular/core';
 import {Project} from '../../interface/project';
 import {PROJECT_LIST} from '../../project-list';
 
-import {OwlOptions,} from 'ngx-owl-carousel-o';
-
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
@@ -11,6 +9,26 @@ import {OwlOptions,} from 'ngx-owl-carousel-o';
 })
 export class ProjectsComponent {
   projects: Project[] = PROJECT_LIST;
+
+  responsiveOptions = [
+    {
+      breakpoint: '1199px',
+      numVisible: 3,
+      numScroll: 1
+    },
+    {
+      breakpoint: '991px',
+      numVisible: 2,
+      numScroll: 1
+    },
+    {
+      breakpoint: '767px',
+      numVisible: 1,
+      numScroll: 1
+    }
+  ];
+
+  /*
   customOwlOptions: OwlOptions = {
     loop: true,
     center: true,
@@ -29,5 +47,6 @@ export class ProjectsComponent {
       }
     }
   };
+   */
 
 }

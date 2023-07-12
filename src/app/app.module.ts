@@ -1,14 +1,12 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-import {CarouselModule} from 'ngx-owl-carousel-o';
 import {AccordionModule} from 'primeng/accordion';
-import {AnimateModule} from 'primeng/animate';
 import {CardModule} from 'primeng/card';
 import {DividerModule} from 'primeng/divider';
 import {PanelModule} from 'primeng/panel';
 import {TimelineModule} from 'primeng/timeline';
+import { CarouselModule } from 'primeng/carousel';
 
-import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {NavbarComponent} from './components/navbar/navbar.component';
 import {HomeComponent} from './page-sections/home/home.component';
@@ -34,16 +32,14 @@ import {EducationComponent} from './page-sections/education/education.component'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     ButtonModule,
     CardModule,
     BrowserAnimationsModule,
-    CarouselModule,
     DividerModule,
     TimelineModule,
     AccordionModule,
     PanelModule,
-    AnimateModule
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,10 @@
 .content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+::ng-deep .p-card {
+  margin: 1rem;
 }
 
 .container {

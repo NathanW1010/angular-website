@@ -1,6 +1,9 @@
 ::ng-deep .border-card .p-card {
   border-radius: 15px;
   border: 6px solid var(--primary-color);
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 ::ng-deep .border-card .p-card-content {
@@ -24,9 +27,9 @@ a {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  max-width: 80%;
-  margin-right: auto;
-  margin-left: auto;
   margin-bottom: 3rem;
 }

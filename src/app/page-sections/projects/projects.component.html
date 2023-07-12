@@ -1,15 +1,12 @@
 <p-divider id="projects"></p-divider>
 <div class="container">
   <h2>Projects</h2>
-  <owl-carousel-o [options]="customOwlOptions">
-    <ng-container *ngFor="let project of projects" id="project-slide">
-      <ng-template let-slide carouselSlide>
+  <p-carousel [value]="projects" [numVisible]="3" [numScroll]="1" [circular]="true" [responsiveOptions]="responsiveOptions">
+      <ng-template let-project pTemplate="item">
+
         <p-card header="{{project.title}}" subheader="{{project.projectType}}"
-                class="flex align-items-center justify-content-center font-bold m-2 border-card"
-                [ngClass]="slide.isCentered ? 'centered-card': ''">
-          <img src="/assets/images/{{project.projectImgCover}}" alt="Project image"
-               [id]="slide.isCentered ? 'image-only': ''">
-          <img src="/assets/images/{{project.projectGif}}" alt="Project gif" [id]="slide.isCentered ? '': 'image-only'">
+                class="flex align-items-center justify-content-center font-bold m-2 border-card">
+          <img src="/assets/images/{{project.projectGif}}" alt="Project gif">
           <p>{{project.description}}</p>
           <div class="link-container">
             <a href="{{project.gitHubLink}}" class="link-margin">
@@ -22,7 +19,25 @@
             </div>
           </div>
         </p-card>
+
       </ng-template>
-    </ng-container>
-  </owl-carousel-o>
+  </p-carousel>
 </div>
+
+<!--
+        <p-card header="{{project.title}}" subheader="{{project.projectType}}"
+                class="flex align-items-center justify-content-center font-bold m-2 border-card">
+          <img src="/assets/images/{{project.projectGif}}" alt="Project gif">
+          <p>{{project.description}}</p>
+          <div class="link-container">
+            <a href="{{project.gitHubLink}}" class="link-margin">
+              <p-button label="GitHub Repository" icon="pi pi-external-link" styleClass="p-button-outlined"></p-button>
+            </a>
+            <div *ngIf="project.playOverWeb" class="link-margin">
+              <a href="{{project.playOverWebLink}}">
+                <p-button label="Play via Web Browser" icon="pi pi-external-link" styleClass="p-button-outlined"></p-button>
+              </a>
+            </div>
+          </div>
+        </p-card>
+-->

@@ -3,7 +3,6 @@ export interface Project {
   description: string
   projectType: string
   gitHubLink: string
-  projectImgCover: string
   projectGif: string
   playOverWeb: boolean
   playOverWebLink?: string
