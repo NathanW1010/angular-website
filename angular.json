@@ -24,7 +24,7 @@
               "path": "src/custom-webpack.config.js",
               "replaceDuplicatePlugins": true
             },
-            "outputPath": "docs",
+            "outputPath": "dist/angular-website",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -43,6 +43,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "angular-website",
               "budgets": [
                 {
                   "type": "initial",
