@@ -18,12 +18,8 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-builders/custom-webpack:browser",
+          "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "customWebpackConfig": {
-              "path": "src/custom-webpack.config.js",
-              "replaceDuplicatePlugins": true
-            },
             "outputPath": "dist/angular-website",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -43,7 +39,6 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "angular-website",
               "budgets": [
                 {
                   "type": "initial",
@@ -69,12 +64,6 @@
               "optimization": false,
               "vendorChunk": true,
               "extractLicenses": false,
-              "sourceMap": {
-                "scripts": true,
-                "styles": true,
-                "hidden": true,
-                "vendor": true
-              },
               "namedChunks": true
             }
           },
