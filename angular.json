@@ -18,8 +18,12 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-builders/custom-webpack:browser",
           "options": {
+            "customWebpackConfig": {
+              "path": "src/custom-webpack.config.js",
+              "replaceDuplicatePlugins": true
+            },
             "outputPath": "dist/angular-website",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -39,6 +43,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/nweiland-website/",
               "budgets": [
                 {
                   "type": "initial",
@@ -64,6 +69,12 @@
               "optimization": false,
               "vendorChunk": true,
               "extractLicenses": false,
+              "sourceMap": {
+                "scripts": true,
+                "styles": true,
+                "hidden": true,
+                "vendor": true
+              },
               "namedChunks": true
             }
           },
