@@ -24,7 +24,7 @@
               "path": "src/custom-webpack.config.js",
               "replaceDuplicatePlugins": true
             },
-            "outputPath": "dist/nweiland-website",
+            "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
