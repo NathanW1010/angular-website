@@ -5,7 +5,7 @@ import {CardModule} from 'primeng/card';
 import {DividerModule} from 'primeng/divider';
 import {PanelModule} from 'primeng/panel';
 import {TimelineModule} from 'primeng/timeline';
-import { CarouselModule } from 'primeng/carousel';
+import {CarouselModule } from 'primeng/carousel';
 
 import {AppComponent} from './app.component';
 import {NavbarComponent} from './components/navbar/navbar.component';

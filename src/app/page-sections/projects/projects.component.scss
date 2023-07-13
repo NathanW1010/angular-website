@@ -3,19 +3,21 @@ h2 {
 }
 
 .container {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 img {
-  min-width: 150px;
-  max-width: 30%;
-  margin-left: auto;
-  margin-right: auto;
+  min-width: 40%;
+  max-width: 40%;
+}
+
+p {
+  margin-top: 0;
 }
 
 .link-container {
   margin-top: 1rem;
-  min-height: 100px;
+  min-height: 50px;
 }
 
 .link-margin {
@@ -34,4 +36,9 @@ img {
 
 ::ng-deep ul {
   list-style-type: none !important;
+}
+
+::ng-deep .p-carousel-indicator button {
+  width: 3rem !important;
+  height: .75rem !important;
 }

@@ -21,7 +21,8 @@
           "builder": "@angular-builders/custom-webpack:browser",
           "options": {
             "customWebpackConfig": {
-              "path": "./custom-webpack.config.js"
+              "path": "src/custom-webpack.config.js",
+              "replaceDuplicatePlugins": true
             },
             "outputPath": "dist/nweiland-website",
             "index": "src/index.html",
