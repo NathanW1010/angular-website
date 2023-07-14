@@ -6,6 +6,11 @@
   margin-left: auto;
 }
 
+::ng-deep .contact-links .p-button {
+  background-color: #8d3ca4;
+  border: 6px solid #8d3ca4;
+}
+
 ::ng-deep .border-card .p-card-content {
   display: flex;
   flex-direction: column;

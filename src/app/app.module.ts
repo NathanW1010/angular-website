@@ -1,6 +1,5 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-import {AccordionModule} from 'primeng/accordion';
 import {CardModule} from 'primeng/card';
 import {DividerModule} from 'primeng/divider';
 import {PanelModule} from 'primeng/panel';
@@ -37,7 +36,6 @@ import {EducationComponent} from './page-sections/education/education.component'
     BrowserAnimationsModule,
     DividerModule,
     TimelineModule,
-    AccordionModule,
     PanelModule,
     CarouselModule
   ],

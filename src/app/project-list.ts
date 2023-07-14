@@ -15,7 +15,8 @@ export const PROJECT_LIST: Project[] = [
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectGif: "computerGif.gif",
-    playOverWeb: true
+    playOverWeb: true,
+    playOverWebLink: "https://developers.google.com/search/docs/crawling-indexing/links-crawlable?visit_id=638249519832379408-1702525491&rd=1"
   },
   {
     title: "Example Project #3",
@@ -23,7 +24,8 @@ export const PROJECT_LIST: Project[] = [
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectGif: "computerGif.gif",
-    playOverWeb: true
+    playOverWeb: true,
+    playOverWebLink: "https://developers.google.com/search/docs/crawling-indexing/links-crawlable?visit_id=638249519832379408-1702525491&rd=1"
   },
   {
     title: "Example Project #4",
@@ -31,7 +33,8 @@ export const PROJECT_LIST: Project[] = [
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectGif: "computerGif.gif",
-    playOverWeb: true
+    playOverWeb: true,
+    playOverWebLink: "https://developers.google.com/search/docs/crawling-indexing/links-crawlable?visit_id=638249519832379408-1702525491&rd=1"
   },
   {
     title: "Example Project #5",
@@ -39,6 +42,7 @@ export const PROJECT_LIST: Project[] = [
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectGif: "computerGif.gif",
-    playOverWeb: true
+    playOverWeb: true,
+    playOverWebLink: "https://developers.google.com/search/docs/crawling-indexing/links-crawlable?visit_id=638249519832379408-1702525491&rd=1"
   },
 ]

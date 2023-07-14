@@ -12,12 +12,11 @@
           <img src="./assets/{{project.projectGif}}" alt="Project gif">
           <div class="link-container">
             <a href="{{project.gitHubLink}}" class="link-margin">
-              <p-button label="GitHub Repository" icon="pi pi-external-link" styleClass="p-button-outlined"></p-button>
+              <p-button styleClass="p-button-rounded" label="GitHub Repository" icon="pi pi-external-link"></p-button>
             </a>
             <div *ngIf="project.playOverWeb" class="link-margin">
               <a href="{{project.playOverWebLink}}">
-                <p-button label="Play via Web" icon="pi pi-external-link"
-                          styleClass="p-button-outlined"></p-button>
+                <p-button styleClass="p-button-rounded" label="Play via Web" icon="pi pi-external-link"></p-button>
               </a>
             </div>
           </div>

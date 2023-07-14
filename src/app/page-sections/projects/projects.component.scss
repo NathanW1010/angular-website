@@ -43,3 +43,8 @@ p {
   height: .75rem !important;
 }
 
+::ng-deep .link-container .p-button {
+  background-color: #8d3ca4;
+  border: 6px solid #8d3ca4;
+}
+
