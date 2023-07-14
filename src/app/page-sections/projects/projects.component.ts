@@ -28,25 +28,20 @@ export class ProjectsComponent {
     }
   ];
 
-  /*
-  customOwlOptions: OwlOptions = {
-    loop: true,
-    center: true,
-    dots: true,
-    margin: 100,
-    autoWidth: true,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      800: {
-        items: 2,
-      },
-      1600: {
-        items: 4,
+  constructor() {
+    setTimeout(() => {
+
+      let elements = Array.from(document.getElementsByClassName('p-link'));
+      for (const element of elements) {
+        element.ariaLabel = "Next project view";
       }
-    }
-  };
-   */
+
+      let nextButton = Array.from(document.getElementsByClassName('p-carousel-next'));
+      nextButton[0].ariaLabel = "Next project";
+
+      let prevButton = Array.from(document.getElementsByClassName('p-carousel-prev'));
+      prevButton[0].ariaLabel = "Previous project";
+    }, 0);
+  }
 
 }
