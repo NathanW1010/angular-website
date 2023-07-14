@@ -16,9 +16,13 @@ p {
   margin-top: 0;
 }
 
-.link-container {
+.content-container {
   margin-top: 1rem;
   min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .link-margin {
@@ -44,7 +48,7 @@ p {
   height: .75rem !important;
 }
 
-::ng-deep .link-container .p-button {
+::ng-deep .content-container .p-button {
   background-color: #8d3ca4;
   border: 6px solid #8d3ca4;
 }

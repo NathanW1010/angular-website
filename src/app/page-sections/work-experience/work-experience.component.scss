@@ -24,7 +24,7 @@ p {
   text-align: left;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 1000px) {
   .list-view {
     max-width: 80%;
     margin-left: auto;
@@ -36,7 +36,7 @@ p {
   }
 }
 
-@media (min-width: 921px) {
+@media (min-width: 1001px) {
   .list-view {
     display: none;
   }

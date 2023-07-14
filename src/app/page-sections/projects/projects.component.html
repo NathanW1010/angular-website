@@ -9,8 +9,8 @@
               class="flex align-items-center justify-content-center font-bold m-2 border-card">
         <div class="card-content">
           <p>{{project.description}}</p>
-          <img ngSrc="./assets/{{project.projectGif}}" width="498" height="432" alt="Project gif" priority>
-          <div class="link-container">
+          <div class="content-container">
+          <img ngSrc="./assets/images/{{project.projectGif}}" width="512" height="512" alt="Project gif" priority>
             <a href="{{project.gitHubLink}}" class="link-margin">
               <p-button styleClass="p-button-rounded" label="GitHub Repository" icon="pi pi-external-link"></p-button>
             </a>
