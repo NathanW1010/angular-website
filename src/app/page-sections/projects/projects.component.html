@@ -9,7 +9,7 @@
               class="flex align-items-center justify-content-center font-bold m-2 border-card">
         <div class="card-content">
           <p>{{project.description}}</p>
-          <img src="assets/{{project.projectGif}}" alt="Project gif">
+          <img src="./assets/{{project.projectGif}}" alt="Project gif">
           <div class="link-container">
             <a href="{{project.gitHubLink}}" class="link-margin">
               <p-button label="GitHub Repository" icon="pi pi-external-link" styleClass="p-button-outlined"></p-button>
@@ -27,21 +27,3 @@
     </ng-template>
   </p-carousel>
 </div>
-
-<!--
-        <p-card header="{{project.title}}" subheader="{{project.projectType}}"
-                class="flex align-items-center justify-content-center font-bold m-2 border-card">
-          <img src="/assets/images/{{project.projectGif}}" alt="Project gif">
-          <p>{{project.description}}</p>
-          <div class="link-container">
-            <a href="{{project.gitHubLink}}" class="link-margin">
-              <p-button label="GitHub Repository" icon="pi pi-external-link" styleClass="p-button-outlined"></p-button>
-            </a>
-            <div *ngIf="project.playOverWeb" class="link-margin">
-              <a href="{{project.playOverWebLink}}">
-                <p-button label="Play via Web Browser" icon="pi pi-external-link" styleClass="p-button-outlined"></p-button>
-              </a>
-            </div>
-          </div>
-        </p-card>
--->

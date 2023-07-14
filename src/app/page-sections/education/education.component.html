@@ -5,7 +5,7 @@
     <ng-container *ngFor="let school of education">
       <p-card header="{{school.name}}" subheader="{{school.startDate}} - {{school.endDate}}"
               class="flex align-items-center justify-content-center font-bold m-2 border-card">
-        <img src="assets/{{school.icon}}" alt="{{school.name}}">
+        <img src="./assets/{{school.icon}}" alt="{{school.name}}">
         <p>{{school.description}}</p>
       </p-card>
     </ng-container>
