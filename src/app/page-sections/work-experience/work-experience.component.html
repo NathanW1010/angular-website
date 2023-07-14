@@ -8,7 +8,7 @@
         <p-card header="{{experience.position}} - {{experience.company}}"
                 subheader="{{experience.startDate}} - {{experience.endDate}}" class="m-2 border-card">
           <p-panel header="Read More" [toggleable]="true" toggler="header" [collapsed]="true">
-            <img src="./assets/{{experience.icon}}" alt="{{experience.company}}">
+            <img ngSrc="./assets/{{experience.icon}}" width="512" height="512" alt="{{experience.company}}" priority>
             <p>{{experience.description}}</p>
           </p-panel>
         </p-card>
@@ -25,7 +25,7 @@
               subheader="{{experience.startDate}} - {{experience.endDate}}" class="m-2 border-card">
 
         <p-panel header="Read More" [toggleable]="true" toggler="header" [collapsed]="true">
-            <img src="./assets/{{experience.icon}}" alt="{{experience.company}}">
+            <img ngSrc="./assets/{{experience.icon}}" width="512" height="512" alt="{{experience.company}}" priority>
             <p>{{experience.description}}</p>
         </p-panel>
 

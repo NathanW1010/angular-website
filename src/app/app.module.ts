@@ -18,6 +18,8 @@ import {ContactComponent} from './page-sections/contact/contact.component';
 import {WorkExperienceComponent} from './page-sections/work-experience/work-experience.component';
 import {EducationComponent} from './page-sections/education/education.component';
 
+import { NgOptimizedImage } from '@angular/common'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +39,8 @@ import {EducationComponent} from './page-sections/education/education.component'
     DividerModule,
     TimelineModule,
     PanelModule,
-    CarouselModule
+    CarouselModule,
+    NgOptimizedImage
   ],
   providers: [],
   bootstrap: [AppComponent]
