@@ -1,14 +1,39 @@
 <p-divider id="education"></p-divider>
-<div class="container">
-  <h2>Education</h2>
-  <div class="content">
-    <ng-container *ngFor="let school of education">
+
+<div class="timeline-view">
+  <div class="container">
+    <h2>Education</h2>
+    <p-timeline [value]="education" align="alternate" class="timeline-container">
+      <ng-template pTemplate="content" let-school>
+        <p-card header="{{school.name}}" subheader="{{school.startDate}} - {{school.endDate}}"
+                class="font-bold m-2 border-card">
+          <p-panel header="Read More" [toggleable]="true" toggler="header" [collapsed]="true">
+            <img ngSrc="./assets/images/{{school.icon}}" width="{{school.iconWidth}}" height="{{school.iconHeight}}" alt="{{school.name}}" priority>
+            <p><strong>Degree:</strong> {{school.degree}}</p>
+            <p><strong>GPA:</strong> {{school.GPA}}</p>
+            <p><strong>Activities:</strong></p>
+            <ul *ngFor="let act of school.activities">
+              <li>
+                {{act}}
+              </li>
+            </ul>
+          </p-panel>
+        </p-card>
+      </ng-template>
+    </p-timeline>
+  </div>
+</div>
+
+<div class="list-view">
+  <div class="container">
+    <h2>Education</h2>
+    <div *ngFor="let school of education">
       <p-card header="{{school.name}}" subheader="{{school.startDate}} - {{school.endDate}}"
               class="font-bold m-2 border-card">
         <p-panel header="Read More" [toggleable]="true" toggler="header" [collapsed]="true">
-          <img ngSrc="./assets/images/{{school.icon}}" width="100" height="100" alt="{{school.name}}" priority>
+          <img ngSrc="./assets/images/{{school.icon}}" width="{{school.iconWidth}}" height="{{school.iconHeight}}" alt="{{school.name}}" priority>
+          <p><strong>Degree:</strong> {{school.degree}}</p>
           <p><strong>GPA:</strong> {{school.GPA}}</p>
-          <p><strong>Name:</strong> {{school.name}}</p>
           <p><strong>Activities:</strong></p>
           <ul *ngFor="let act of school.activities">
             <li>
@@ -17,6 +42,6 @@
           </ul>
         </p-panel>
       </p-card>
-    </ng-container>
+    </div>
   </div>
 </div>

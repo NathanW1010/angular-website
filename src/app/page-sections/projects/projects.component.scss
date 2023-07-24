@@ -39,8 +39,8 @@ p {
   justify-content: center !important;
 }
 
-::ng-deep ul {
-  list-style-type: none !important;
+::ng-deep .p-carousel-indicators {
+  list-style-type: none;
 }
 
 ::ng-deep .p-carousel-indicator button {

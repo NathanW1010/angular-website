@@ -4,19 +4,18 @@
   <p-carousel [value]="projects" [numVisible]="4" [numScroll]="1" [responsiveOptions]="responsiveOptions"
               [circular]="true">
     <ng-template let-project pTemplate="item">
-
       <p-card header="{{project.title}}" subheader="{{project.projectType}}"
               class="flex align-items-center justify-content-center font-bold m-2 border-card">
         <div class="card-content">
           <p>{{project.description}}</p>
           <div class="content-container">
             <img ngSrc="./assets/images/{{project.projectGif}}" width="512" height="512" alt="Project gif" priority>
-            <div *ngIf="project.hasGitHubRepo" class="link-margin">
+            <div *ngIf="project.gitHubLink" class="link-margin">
               <a href="{{project.gitHubLink}}">
                 <p-button styleClass="p-button-rounded" label="GitHub Repository" icon="pi pi-external-link"></p-button>
               </a>
             </div>
-            <div *ngIf="project.playOverWeb" class="link-margin">
+            <div *ngIf="project.playOverWebLink" class="link-margin">
               <a href="{{project.playOverWebLink}}">
                 <p-button styleClass="p-button-rounded" label="Play via Browser" icon="pi pi-caret-right"></p-button>
               </a>
@@ -24,7 +23,6 @@
           </div>
         </div>
       </p-card>
-
     </ng-template>
   </p-carousel>
 </div>

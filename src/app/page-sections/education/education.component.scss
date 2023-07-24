@@ -1,20 +1,25 @@
-.content {
+.container {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.timeline-container {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-::ng-deep p-card {
-  margin-bottom: 1rem !important;
-  min-width: 49%;
+.colored-button {
+  color: #CA87D4;
 }
 
-.content p {
-  line-height: 1.5rem;
-  margin-bottom: 0;
+p,
+ul {
+  text-align: left;
 }
 
-.content ul {
+::ng-deep .content ul {
   list-style-type: circle !important;
   margin: .5rem 0 .5rem 0;
 }
@@ -27,35 +32,41 @@ strong {
   color: #f1b2ff;
 }
 
-.container {
+img {
+  width: 100%;
+  height: auto;
+}
+
+::ng-deep .p-card {
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 3rem;
-  width: 80%;
 }
 
 ::ng-deep p-panel {
   min-width: 100% !important;
 }
 
-::ng-deep .content .p-card-content {
-  text-align: left;
-  align-items: baseline !important;
-  min-width: 100% !important;
-}
-
-::ng-deep .content .p-card-content img {
-  min-width: 60%;
-  max-width: 60%;
-  height: auto;
-  margin: auto;
-}
-
 @media (max-width: 1000px) {
-  .content  {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  .list-view {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  ::ng-deep .p-card {
+    margin-bottom: 2rem;
+  }
+
+  .timeline-view {
+    display: none;
+  }
+}
+
+@media (min-width: 1001px) {
+  .list-view {
+    display: none;
+  }
+
+  .timeline-view {
+    display: block;
   }
 }

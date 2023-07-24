@@ -7,17 +7,12 @@ export const PROJECT_LIST: Project[] = [
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectGif: "pc-icon.png",
-    playOverWeb: false,
-    hasGitHubRepo: true
   },
   {
     title: "Example Project #2",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Enim sed faucibus turpis in eu.",
     projectType: "Unity C#",
-    gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectGif: "pc-icon.png",
-    playOverWeb: true,
-    hasGitHubRepo: false,
     playOverWebLink: "https://developers.google.com/search/docs/crawling-indexing/links-crawlable?visit_id=638249519832379408-1702525491&rd=1"
   },
   {
@@ -26,8 +21,6 @@ export const PROJECT_LIST: Project[] = [
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectGif: "pc-icon.png",
-    playOverWeb: true,
-    hasGitHubRepo: true,
     playOverWebLink: "https://developers.google.com/search/docs/crawling-indexing/links-crawlable?visit_id=638249519832379408-1702525491&rd=1"
   },
   {
@@ -36,8 +29,6 @@ export const PROJECT_LIST: Project[] = [
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectGif: "pc-icon.png",
-    playOverWeb: true,
-    hasGitHubRepo: true,
     playOverWebLink: "https://developers.google.com/search/docs/crawling-indexing/links-crawlable?visit_id=638249519832379408-1702525491&rd=1"
   },
   {
@@ -46,8 +37,6 @@ export const PROJECT_LIST: Project[] = [
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectGif: "pc-icon.png",
-    playOverWeb: true,
-    hasGitHubRepo: true,
     playOverWebLink: "https://developers.google.com/search/docs/crawling-indexing/links-crawlable?visit_id=638249519832379408-1702525491&rd=1"
   },
 ]

@@ -3,6 +3,10 @@ export interface Experience {
   position: string
   startDate: string
   endDate: string
-  description: string
+  overview: string[]
+  location: string
   icon: string
+  iconWidth: number
+  iconHeight: number
+  website?: string
 }

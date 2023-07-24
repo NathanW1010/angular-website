@@ -14,14 +14,35 @@
   color: #CA87D4;
 }
 
+p,
+ul {
+  text-align: left;
+}
+
+::ng-deep .content ul {
+  list-style-type: circle !important;
+  margin: .5rem 0 .5rem 0;
+}
+
+li {
+  margin-bottom: 0;
+}
+
+strong {
+  color: #f1b2ff;
+}
+
 img {
-  max-width: 50%;
-  max-height: 50%;
+  width: 90%;
   height: auto;
 }
 
-p {
-  text-align: left;
+::ng-deep .p-card {
+  text-align: center;
+}
+
+::ng-deep p-panel {
+  min-width: 100% !important;
 }
 
 @media (max-width: 1000px) {
