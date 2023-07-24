@@ -10,13 +10,15 @@
         <div class="card-content">
           <p>{{project.description}}</p>
           <div class="content-container">
-          <img ngSrc="./assets/images/{{project.projectGif}}" width="512" height="512" alt="Project gif" priority>
-            <a href="{{project.gitHubLink}}" class="link-margin">
-              <p-button styleClass="p-button-rounded" label="GitHub Repository" icon="pi pi-external-link"></p-button>
-            </a>
+            <img ngSrc="./assets/images/{{project.projectGif}}" width="512" height="512" alt="Project gif" priority>
+            <div *ngIf="project.hasGitHubRepo" class="link-margin">
+              <a href="{{project.gitHubLink}}">
+                <p-button styleClass="p-button-rounded" label="GitHub Repository" icon="pi pi-external-link"></p-button>
+              </a>
+            </div>
             <div *ngIf="project.playOverWeb" class="link-margin">
               <a href="{{project.playOverWebLink}}">
-                <p-button styleClass="p-button-rounded" label="Play via Web" icon="pi pi-external-link"></p-button>
+                <p-button styleClass="p-button-rounded" label="Play via Browser" icon="pi pi-caret-right"></p-button>
               </a>
             </div>
           </div>

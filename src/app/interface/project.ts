@@ -5,5 +5,6 @@ export interface Project {
   gitHubLink: string
   projectGif: string
   playOverWeb: boolean
+  hasGitHubRepo: boolean
   playOverWebLink?: string
 }
