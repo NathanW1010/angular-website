@@ -7,8 +7,8 @@ h2 {
 }
 
 img {
-  min-width: 40%;
-  max-width: 40%;
+  min-width: 60%;
+  max-width: 60%;
   height: auto;
 }
 
@@ -53,3 +53,6 @@ p {
   border: 6px solid #8d3ca4;
 }
 
+::ng-deep .p-link {
+  font-size: 0;
+}

@@ -2,6 +2,7 @@ export interface Education {
   name: string
   startDate: string
   endDate: string
-  description: string
+  activities: string[]
   icon: string
+  GPA: string
 }

@@ -31,6 +31,10 @@ p {
     margin-right: auto;
   }
 
+  ::ng-deep .p-card {
+    margin-bottom: 2rem;
+  }
+
   .timeline-view {
     display: none;
   }
