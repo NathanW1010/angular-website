@@ -8,7 +8,14 @@
         <p-card header="{{school.name}}" subheader="{{school.startDate}} - {{school.endDate}}"
                 class="font-bold m-2 border-card">
           <p-panel header="Read More" [toggleable]="true" toggler="header" [collapsed]="true">
-            <img ngSrc="./assets/images/{{school.icon}}" width="{{school.iconWidth}}" height="{{school.iconHeight}}" alt="{{school.name}}" priority>
+
+
+            <picture>
+              <source type="image/webp" srcset="./assets/images/{{school.iconWEBP}}" />
+              <img src="./assets/images/{{school.iconPNG}}" alt="{{school.name}}" />
+            </picture>
+
+
             <p><strong>Degree:</strong> {{school.degree}}</p>
             <p><strong>GPA:</strong> {{school.GPA}}</p>
             <p><strong>Activities:</strong></p>
@@ -31,7 +38,10 @@
       <p-card header="{{school.name}}" subheader="{{school.startDate}} - {{school.endDate}}"
               class="font-bold m-2 border-card">
         <p-panel header="Read More" [toggleable]="true" toggler="header" [collapsed]="true">
-          <img ngSrc="./assets/images/{{school.icon}}" width="{{school.iconWidth}}" height="{{school.iconHeight}}" alt="{{school.name}}" priority>
+
+
+
+
           <p><strong>Degree:</strong> {{school.degree}}</p>
           <p><strong>GPA:</strong> {{school.GPA}}</p>
           <p><strong>Activities:</strong></p>
@@ -45,3 +55,11 @@
     </div>
   </div>
 </div>
+
+
+
+<!--
+
+  <img ngSrc="./assets/images/{{school.icon}}" width="{{school.iconWidth}}" height="{{school.iconHeight}}" alt="{{school.name}}" priority>
+
+-->

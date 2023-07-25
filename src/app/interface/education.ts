@@ -3,7 +3,9 @@ export interface Education {
   startDate: string
   endDate: string
   activities: string[]
-  icon: string
+  iconPNG: string
+  iconWEBP: string
+  photoCreditName?: string
   iconWidth: number
   iconHeight: number
   GPA: string

@@ -13,9 +13,11 @@ export const EDUCATION: Education[] = [
       'Annual Fall Mailing Photoshoot',
       'Spring 2023 Appeal Photoshoot'
     ],
-    icon: 'wrightstate.jpeg',
-    iconWidth: 375,
-    iconHeight: 250,
+    photoCreditName: 'Diana Jaber',
+    iconPNG: 'wrightstate-lg.jpeg',
+    iconWEBP: 'wrightstate-lg.webp',
+    iconWidth: 2560,
+    iconHeight: 1707,
     GPA: '3.923',
     degree: 'Bachelor of Science in Computer Science (BSCS)'
   },
@@ -29,7 +31,9 @@ export const EDUCATION: Education[] = [
       'National Honors Society',
       'American Legion Buckeye Boys State'
     ],
-    icon: 'pc-icon.png',
+    photoCreditName: 'John Doe',
+    iconPNG: 'pc-icon.png',
+    iconWEBP: 'wrightstate-lg.webp',
     iconWidth: 512,
     iconHeight: 512,
     GPA: 'Unweighted: 4.000, Weighted: 4.534',

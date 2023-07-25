@@ -14,7 +14,8 @@ export const WORK_EXPERIENCE: Experience[] = [
     ],
     location: '3110 Kettering Blvd, Dayton, OH 45439',
     website: 'https://www.winsupplyinc.com/',
-    icon: "winsupply.jpeg",
+    photoCreditName: 'Maury Williams',
+    iconPNG: "winsupply.webp",
     iconWidth: 680,
     iconHeight: 454,
   },
@@ -28,7 +29,7 @@ export const WORK_EXPERIENCE: Experience[] = [
       'Working with back-end technologies such as Spring Boot'
     ],
     location: "123 St",
-    icon: "pc-icon.png",
+    iconPNG: "pc-icon.png",
     iconWidth: 512,
     iconHeight: 512
   },
@@ -42,7 +43,7 @@ export const WORK_EXPERIENCE: Experience[] = [
       'Working with back-end technologies such as Spring Boot'
     ],
     location: "123 St",
-    icon: "pc-icon.png",
+    iconPNG: "pc-icon.png",
     iconWidth: 512,
     iconHeight: 512
   },
@@ -56,7 +57,7 @@ export const WORK_EXPERIENCE: Experience[] = [
       'Working with back-end technologies such as Spring Boot'
     ],
     location: "123 St",
-    icon: "pc-icon.png",
+    iconPNG: "pc-icon.png",
     iconWidth: 512,
     iconHeight: 512
   },
@@ -70,7 +71,7 @@ export const WORK_EXPERIENCE: Experience[] = [
       'Working with back-end technologies such as Spring Boot'
     ],
     location: "123 St",
-    icon: "pc-icon.png",
+    iconPNG: "pc-icon.png",
     iconWidth: 512,
     iconHeight: 512
   },

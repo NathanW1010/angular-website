@@ -5,7 +5,9 @@ export interface Experience {
   endDate: string
   overview: string[]
   location: string
-  icon: string
+  iconPNG: string
+  iconWEBP?: string
+  photoCreditName?: string
   iconWidth: number
   iconHeight: number
   website?: string
