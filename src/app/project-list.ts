@@ -6,13 +6,13 @@ export const PROJECT_LIST: Project[] = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Enim sed faucibus turpis in eu.",
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
-    projectGif: "pc-icon.png",
+    projectCover: "pc-icon.png",
   },
   {
     title: "Example Project #2",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Enim sed faucibus turpis in eu.",
     projectType: "Unity C#",
-    projectGif: "pc-icon.png",
+    projectCover: "pc-icon.png",
     playOverWebLink: "https://developers.google.com/search/docs/crawling-indexing/links-crawlable?visit_id=638249519832379408-1702525491&rd=1"
   },
   {
@@ -20,7 +20,7 @@ export const PROJECT_LIST: Project[] = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Enim sed faucibus turpis in eu.",
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
-    projectGif: "pc-icon.png",
+    projectCover: "pc-icon.png",
     playOverWebLink: "https://developers.google.com/search/docs/crawling-indexing/links-crawlable?visit_id=638249519832379408-1702525491&rd=1"
   },
   {
@@ -28,7 +28,7 @@ export const PROJECT_LIST: Project[] = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Enim sed faucibus turpis in eu.",
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
-    projectGif: "pc-icon.png",
+    projectCover: "pc-icon.png",
     playOverWebLink: "https://developers.google.com/search/docs/crawling-indexing/links-crawlable?visit_id=638249519832379408-1702525491&rd=1"
   },
   {
@@ -36,7 +36,7 @@ export const PROJECT_LIST: Project[] = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Enim sed faucibus turpis in eu.",
     projectType: "Unity C#",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
-    projectGif: "pc-icon.png",
+    projectCover: "pc-icon.png",
     playOverWebLink: "https://developers.google.com/search/docs/crawling-indexing/links-crawlable?visit_id=638249519832379408-1702525491&rd=1"
   },
 ]

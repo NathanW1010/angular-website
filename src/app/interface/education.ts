@@ -3,11 +3,12 @@ export interface Education {
   startDate: string
   endDate: string
   activities: string[]
-  iconPNG: string
-  iconWEBP: string
+  location: string
+  iconSm: string
+  iconMd: string
+  iconLg: string
+  iconXl: string
   photoCreditName?: string
-  iconWidth: number
-  iconHeight: number
   GPA: string
   degree: string
 }

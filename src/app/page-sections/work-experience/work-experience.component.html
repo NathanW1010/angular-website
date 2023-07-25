@@ -8,7 +8,15 @@
         <p-card header="{{experience.position}}"
                 subheader="{{experience.startDate}} - {{experience.endDate}}" class="m-2 border-card">
           <p-panel header="Read More" [toggleable]="true" toggler="header" [collapsed]="true">
-            <img ngSrc="./assets/images/{{experience.iconPNG}}" width="{{experience.iconWidth}}" height="{{experience.iconHeight}}" alt="{{experience.company}}" priority>
+
+            <picture>
+              <source media="(min-width:820px)" srcset="./assets/images/{{experience.iconXl}}">
+              <source media="(min-width:650px)" srcset="./assets/images/{{experience.iconLg}}">
+              <source media="(min-width:465px)" srcset="./assets/images/{{experience.iconMd}}">
+              <img src="./assets/images/{{experience.iconSm}}" alt="{{experience.company}}">
+            </picture>
+            <p>(Photo Credit: {{experience.photoCreditName}})</p>
+
             <p><strong>Company:</strong> {{experience.company}}</p>
             <p><strong>Location:</strong> {{experience.location}}</p>
             <div *ngIf="experience.website" >
@@ -34,10 +42,18 @@
       <p-card header="{{experience.position}}"
               subheader="{{experience.startDate}} - {{experience.endDate}}" class="m-2 border-card">
         <p-panel header="Read More" [toggleable]="true" toggler="header" [collapsed]="true">
-          <img ngSrc="./assets/images/{{experience.iconPNG}}" width="{{experience.iconWidth}}" height="{{experience.iconHeight}}" alt="{{experience.company}}" priority>
+
+          <picture>
+            <source media="(min-width:820px)" srcset="./assets/images/{{experience.iconXl}}">
+            <source media="(min-width:650px)" srcset="./assets/images/{{experience.iconLg}}">
+            <source media="(min-width:465px)" srcset="./assets/images/{{experience.iconMd}}">
+            <img src="./assets/images/{{experience.iconSm}}" alt="{{experience.company}}">
+          </picture>
+          <p>(Photo Credit: {{experience.photoCreditName}})</p>
+
           <p><strong>Company:</strong> {{experience.company}}</p>
           <p><strong>Location:</strong> {{experience.location}}</p>
-          <div *ngIf="experience.website" >
+          <div *ngIf="experience.website">
             <p><strong>Website: </strong><a href="{{experience.website}}">{{experience.website}}</a></p>
           </div>
           <p><strong>Overview:</strong></p>

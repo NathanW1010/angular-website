@@ -5,7 +5,7 @@
 
 .timeline-container {
   display: flex;
-  max-width: 80%;
+  max-width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -17,6 +17,10 @@
 p,
 ul {
   text-align: left;
+}
+
+a {
+  word-break: break-all;
 }
 
 ::ng-deep .content ul {
@@ -47,7 +51,7 @@ img {
 
 @media (max-width: 1000px) {
   .list-view {
-    max-width: 80%;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
   }

@@ -9,7 +9,7 @@
         <div class="card-content">
           <p>{{project.description}}</p>
           <div class="content-container">
-            <img ngSrc="./assets/images/{{project.projectGif}}" width="512" height="512" alt="Project gif" priority>
+            <img ngSrc="./assets/images/{{project.projectCover}}" width="512" height="512" alt="Project cover" priority>
             <div *ngIf="project.gitHubLink" class="link-margin">
               <a href="{{project.gitHubLink}}">
                 <p-button styleClass="p-button-rounded" label="GitHub Repository" icon="pi pi-external-link"></p-button>

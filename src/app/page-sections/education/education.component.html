@@ -9,15 +9,18 @@
                 class="font-bold m-2 border-card">
           <p-panel header="Read More" [toggleable]="true" toggler="header" [collapsed]="true">
 
-
             <picture>
-              <source type="image/webp" srcset="./assets/images/{{school.iconWEBP}}" />
-              <img src="./assets/images/{{school.iconPNG}}" alt="{{school.name}}" />
+              <source media="(min-width:820px)" srcset="./assets/images/{{school.iconXl}}">
+              <source media="(min-width:650px)" srcset="./assets/images/{{school.iconLg}}">
+              <source media="(min-width:465px)" srcset="./assets/images/{{school.iconMd}}">
+              <img src="./assets/images/{{school.iconSm}}" alt="{{school.name}}">
             </picture>
 
-
+            <p>(Photo Credit: {{school.photoCreditName}})</p>
             <p><strong>Degree:</strong> {{school.degree}}</p>
+            <p><strong>Location:</strong> {{school.location}}</p>
             <p><strong>GPA:</strong> {{school.GPA}}</p>
+
             <p><strong>Activities:</strong></p>
             <ul *ngFor="let act of school.activities">
               <li>
@@ -39,11 +42,18 @@
               class="font-bold m-2 border-card">
         <p-panel header="Read More" [toggleable]="true" toggler="header" [collapsed]="true">
 
+          <picture>
+            <source media="(min-width:820px)" srcset="./assets/images/{{school.iconXl}}">
+            <source media="(min-width:650px)" srcset="./assets/images/{{school.iconLg}}">
+            <source media="(min-width:465px)" srcset="./assets/images/{{school.iconMd}}">
+            <img src="./assets/images/{{school.iconSm}}" alt="{{school.name}}">
+          </picture>
 
-
-
+          <p>(Photo Credit: {{school.photoCreditName}})</p>
           <p><strong>Degree:</strong> {{school.degree}}</p>
+          <p><strong>Location:</strong> {{school.location}}</p>
           <p><strong>GPA:</strong> {{school.GPA}}</p>
+
           <p><strong>Activities:</strong></p>
           <ul *ngFor="let act of school.activities">
             <li>
@@ -55,7 +65,6 @@
     </div>
   </div>
 </div>
-
 
 
 <!--

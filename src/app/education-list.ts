@@ -13,13 +13,14 @@ export const EDUCATION: Education[] = [
       'Annual Fall Mailing Photoshoot',
       'Spring 2023 Appeal Photoshoot'
     ],
-    photoCreditName: 'Diana Jaber',
-    iconPNG: 'wrightstate-lg.jpeg',
-    iconWEBP: 'wrightstate-lg.webp',
-    iconWidth: 2560,
-    iconHeight: 1707,
+    photoCreditName: 'Bob Mihalek',
+    iconSm: 'wsu-sm-compressed.jpg',
+    iconMd: 'wsu-md-compressed.jpg',
+    iconLg: 'wsu-lg-compressed.jpg',
+    iconXl: 'wsu-xl-compressed.jpg',
     GPA: '3.923',
-    degree: 'Bachelor of Science in Computer Science (BSCS)'
+    degree: 'Bachelor of Science in Computer Science (BSCS)',
+    location: '3640 Colonel Glenn Hwy, Dayton, OH 45435'
   },
   {
     name: 'Middletown High School',
@@ -31,12 +32,13 @@ export const EDUCATION: Education[] = [
       'National Honors Society',
       'American Legion Buckeye Boys State'
     ],
-    photoCreditName: 'John Doe',
-    iconPNG: 'pc-icon.png',
-    iconWEBP: 'wrightstate-lg.webp',
-    iconWidth: 512,
-    iconHeight: 512,
+    photoCreditName: 'Fanning Howey',
+    iconSm: 'mhs-sm-compressed.jpg',
+    iconMd: 'mhs-md-compressed.jpg',
+    iconLg: 'mhs-md-compressed.jpg',
+    iconXl: 'mhs-md-compressed.jpg',
     GPA: 'Unweighted: 4.000, Weighted: 4.534',
-    degree: 'High school diploma'
+    degree: 'High school diploma',
+    location: '601 N Breiel Blvd, Middletown, OH 45042'
   }
 ];
