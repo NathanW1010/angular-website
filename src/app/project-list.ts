@@ -2,41 +2,38 @@ import {Project} from './interface/project';
 
 export const PROJECT_LIST: Project[] = [
   {
-    title: "Example Project #1",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Enim sed faucibus turpis in eu.",
-    projectType: "Unity C#",
+    title: "Top Down Zombie Shooter",
+    description: "Began work during the Summer of 2020 just before taking classes at Wright State University. Upgrade your weapons, character, and explore a zombie-infested abandoned city in this top down shooter!",
+    projectType: "C# (Unity)",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectCover: "pc-icon.png",
   },
   {
-    title: "Example Project #2",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Enim sed faucibus turpis in eu.",
-    projectType: "Unity C#",
-    projectCover: "pc-icon.png",
-    playOverWebLink: "https://developers.google.com/search/docs/crawling-indexing/links-crawlable?visit_id=638249519832379408-1702525491&rd=1"
-  },
-  {
-    title: "Example Project #3",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Enim sed faucibus turpis in eu.",
-    projectType: "Unity C#",
+    title: "Java Quest",
+    description: "Completed during my first year of college in the Spring of 2021 and was the winner of a game jam that was held against five other student projects. Encounter various types of enemies and level up your character in this text based adventure game!",
+    projectType: "Java Swing",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectCover: "pc-icon.png",
-    playOverWebLink: "https://developers.google.com/search/docs/crawling-indexing/links-crawlable?visit_id=638249519832379408-1702525491&rd=1"
   },
   {
-    title: "Example Project #4",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Enim sed faucibus turpis in eu.",
-    projectType: "Unity C#",
+    title: "Bowling Game",
+    description: "Completed during the Summer of 2021 through a game programming course offered at Wright State. Strike out in this interactive bowling game!",
+    projectType: "C# (Unity)",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectCover: "pc-icon.png",
-    playOverWebLink: "https://developers.google.com/search/docs/crawling-indexing/links-crawlable?visit_id=638249519832379408-1702525491&rd=1"
   },
   {
-    title: "Example Project #5",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Enim sed faucibus turpis in eu.",
-    projectType: "Unity C#",
+    title: "Tiny Tanks",
+    description: "Completed during the Summer of 2021 through a game programming course offered at Wright State. Upgrade your tank and fight off against an endless wave of enemy planes!",
+    projectType: "C# (Unity)",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectCover: "pc-icon.png",
-    playOverWebLink: "https://developers.google.com/search/docs/crawling-indexing/links-crawlable?visit_id=638249519832379408-1702525491&rd=1"
+  },
+  {
+    title: "Battle Boats",
+    description: "Began work during the Summer of 2022. Command a fleet of over 40 different types of ships and upgrade your base to destroy your enemies!",
+    projectType: "C# (Unity)",
+    gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
+    projectCover: "pc-icon.png",
   },
 ]

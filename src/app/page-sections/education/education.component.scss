@@ -49,6 +49,15 @@ img {
   min-width: 100% !important;
 }
 
+::ng-deep .p-panel .p-panel-header {
+  transition: 0.3s;
+}
+
+::ng-deep .p-panel .p-panel-header:hover {
+  background-color: #25364d;
+  font-size: 1.2rem;
+}
+
 @media (max-width: 1000px) {
   .list-view {
     max-width: 90%;
