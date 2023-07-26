@@ -55,7 +55,11 @@ img {
 
 ::ng-deep .p-panel .p-panel-header:hover {
   background-color: #25364d;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+}
+
+::ng-deep .p-panel .p-panel-toggler {
+  pointer-events: none;
 }
 
 @media (max-width: 1000px) {

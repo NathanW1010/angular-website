@@ -19,7 +19,7 @@ export const PROJECT_LIST: Project[] = [
     title: "Bowling Game",
     description: "Completed during the Summer of 2021 through a game programming course offered at Wright State. Strike out in this interactive bowling game!",
     projectType: "C# (Unity)",
-    gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
+    gitHubLink: "https://github.com/NathanWeiland10/BowlingGame-Unity",
     projectCover: "pc-icon.png",
   },
   {
@@ -33,7 +33,7 @@ export const PROJECT_LIST: Project[] = [
     title: "Battle Boats",
     description: "Began work during the Summer of 2022. Command a fleet of over 40 different types of ships and upgrade your base to destroy your enemies!",
     projectType: "C# (Unity)",
-    gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
+    gitHubLink: "https://github.com/NathanWeiland10/BattleBoats-Unity",
     projectCover: "pc-icon.png",
   },
 ]

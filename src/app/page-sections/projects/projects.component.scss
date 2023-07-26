@@ -55,4 +55,11 @@ p {
 
 ::ng-deep .p-link {
   font-size: 0;
+  box-shadow: 0 0 0 0 !important;
+}
+
+::ng-deep .p-carousel-prev:focus,
+::ng-deep .p-carousel-next:focus
+{
+  box-shadow: 0 0 0 3px rgb(141, 60, 164) !important;
 }
