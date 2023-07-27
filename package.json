@@ -22,6 +22,7 @@
     "@angular/router": "^16.1.4",
     "primeicons": "^6.0.1",
     "primeng": "^16.0.0",
+    "ngx-owl-carousel-o": "^16.0.0",
     "rxjs": "~7.4.0",
     "zone.js": "~0.13.1"
   },

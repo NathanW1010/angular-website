@@ -4,7 +4,6 @@ import {CardModule} from 'primeng/card';
 import {DividerModule} from 'primeng/divider';
 import {PanelModule} from 'primeng/panel';
 import {TimelineModule} from 'primeng/timeline';
-import {CarouselModule } from 'primeng/carousel';
 
 import {AppComponent} from './app.component';
 import {NavbarComponent} from './components/navbar/navbar.component';
@@ -18,6 +17,7 @@ import {ContactComponent} from './page-sections/contact/contact.component';
 import {WorkExperienceComponent} from './page-sections/work-experience/work-experience.component';
 import {EducationComponent} from './page-sections/education/education.component';
 
+import {CarouselModule} from 'ngx-owl-carousel-o';
 import {NgOptimizedImage} from '@angular/common'
 
 @NgModule({

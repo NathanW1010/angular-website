@@ -34,20 +34,6 @@ p {
   border: 6px solid var(--primary-color);
 }
 
-::ng-deep .p-carousel-item {
-  display: flex !important;
-  justify-content: center !important;
-}
-
-::ng-deep .p-carousel-indicators {
-  list-style-type: none;
-}
-
-::ng-deep .p-carousel-indicator button {
-  width: 3rem !important;
-  height: .75rem !important;
-}
-
 ::ng-deep .content-container .p-button {
   background-color: #8d3ca4;
   border: 6px solid #8d3ca4;
@@ -56,10 +42,4 @@ p {
 ::ng-deep .p-link {
   font-size: 0;
   box-shadow: 0 0 0 0 !important;
-}
-
-::ng-deep .p-carousel-prev:focus,
-::ng-deep .p-carousel-next:focus
-{
-  box-shadow: 0 0 0 3px rgb(141, 60, 164) !important;
 }

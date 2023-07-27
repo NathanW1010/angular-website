@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import {OwlOptions} from 'ngx-owl-carousel-o';
 import {Project} from '../../interface/project';
 import {PROJECT_LIST} from '../../project-list';
 
@@ -10,38 +11,27 @@ import {PROJECT_LIST} from '../../project-list';
 export class ProjectsComponent {
   projects: Project[] = PROJECT_LIST;
 
-  responsiveOptions = [
-    {
-      breakpoint: '2000px',
-      numVisible: 3,
-      numScroll: 1
-    },
-    {
-      breakpoint: '1200px',
-      numVisible: 2,
-      numScroll: 1
-    },
-    {
-      breakpoint: '800px',
-      numVisible: 1,
-      numScroll: 1
-    }
-  ];
-
-  constructor() {
-    setTimeout(() => {
-
-      let elements = Array.from(document.getElementsByClassName('p-link'));
-      for (const element of elements) {
-        element.ariaLabel = "Next project view";
+  customOptions: OwlOptions = {
+    loop: true,
+    autoplay: false,
+    center: true,
+    dots: true,
+    autoHeight: false,
+    autoWidth: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      650: {
+        items: 2,
+      },
+      1300: {
+        items: 3,
+      },
+      1700: {
+        items: 4,
       }
-
-      let nextButton = Array.from(document.getElementsByClassName('p-carousel-next'));
-      nextButton[0].ariaLabel = "Next project";
-
-      let prevButton = Array.from(document.getElementsByClassName('p-carousel-prev'));
-      prevButton[0].ariaLabel = "Previous project";
-    }, 0);
-  }
+    }
+  };
 
 }
