@@ -36,4 +36,11 @@ export const PROJECT_LIST: Project[] = [
     gitHubLink: "https://github.com/NathanWeiland10/BattleBoats-Unity",
     projectCover: "pc-icon.png",
   },
+  {
+    title: "ASCII Art Converter",
+    description: "Completed during the Spring of 2023 with a team of three at Wright State. Upload any custom image and convert it into customizable ASCII art!",
+    projectType: "C# (Unity)",
+    playOverWebLink: "https://github.com/NathanWeiland10/BattleBoats-Unity",
+    projectCover: "pc-icon.png",
+  },
 ]
