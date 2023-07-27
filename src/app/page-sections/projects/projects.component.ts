@@ -20,16 +20,19 @@ export class ProjectsComponent {
     autoWidth: true,
     responsive: {
       0: {
-        items: 1,
+        items: 1
       },
       650: {
-        items: 2,
+        items: 2
       },
       1300: {
-        items: 3,
+        items: 3
       },
       1700: {
-        items: 4,
+        items: 4
+      },
+      2000: {
+        items: 5
       }
     }
   };

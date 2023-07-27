@@ -11,7 +11,7 @@ export const PROJECT_LIST: Project[] = [
   {
     title: "Java Quest",
     description: "Completed during my first year of college in the Spring of 2021 and was the winner of a game jam that was held against five other student projects. Encounter various types of enemies and level up your character in this text based adventure game!",
-    projectType: "Java Swing",
+    projectType: "Java (Java Swing)",
     gitHubLink: "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.bitesize/tree/main",
     projectCover: "pc-icon.png",
   },
