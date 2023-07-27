@@ -17,13 +17,13 @@ h1 {
 }
 
 img {
-  max-width: 300px;
-  max-height: 300px;
+  width: 275px;
+  height: 275px;
   border: 6px solid #838383;
   border-radius: 10px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 900px) {
   .container  {
     display: flex;
     justify-content: center;
