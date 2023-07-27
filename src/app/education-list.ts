@@ -51,11 +51,11 @@ export const EDUCATION: Education[] = [
       'National Honors Society',
       'American Legion Buckeye Boys State'
     ],
-    photoCreditName: 'Fanning Howey',
+    photoCreditName: 'Google',
     iconSm: 'mhs-sm-compressed.jpg',
     iconMd: 'mhs-md-compressed.jpg',
-    iconLg: 'mhs-md-compressed.jpg',
-    iconXl: 'mhs-md-compressed.jpg',
+    iconLg: 'mhs-lg-compressed.jpg',
+    iconXl: 'mhs-xl-compressed.jpg',
     GPA: 'Unweighted: 4.000, Weighted: 4.534',
     degree: 'High school diploma',
     location: '601 N Breiel Blvd, Middletown, OH 45042'
