@@ -31,11 +31,11 @@ export const WORK_EXPERIENCE: Experience[] = [
       'Hosting help room sessions to support students with their code'
     ],
     location: "3640 Colonel Glenn Hwy, Dayton, OH 45435",
-    photoCreditName: 'Diana Jaber',
-    iconSm: "russ-sm-compressed.jpg",
-    iconMd: "russ-md-compressed.jpg",
-    iconLg: "russ-sm-compressed.jpg",
-    iconXl: "russ-md-compressed.jpg"
+    photoCreditName: 'Wright State University',
+    iconSm: "wsu2-sm-compressed.jpg",
+    iconMd: "wsu2-md-compressed.jpg",
+    iconLg: "wsu2-lg-compressed.jpg",
+    iconXl: "wsu2-xl-compressed.jpg",
   },
   {
     company: "MANE",
