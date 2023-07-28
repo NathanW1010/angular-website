@@ -1,4 +1,3 @@
-import {HTTP_INTERCEPTORS} from '@angular/common/http';
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {CardModule} from 'primeng/card';
@@ -7,7 +6,6 @@ import {PanelModule} from 'primeng/panel';
 import {TimelineModule} from 'primeng/timeline';
 
 import {AppComponent} from './app.component';
-import {CacheInterceptor} from './cache-interceptor.interceptor';
 import {NavbarComponent} from './components/navbar/navbar.component';
 import {HomeComponent} from './page-sections/home/home.component';
 import {ProjectsComponent} from './page-sections/projects/projects.component';
@@ -44,9 +42,7 @@ import {NgOptimizedImage} from '@angular/common'
     CarouselModule,
     NgOptimizedImage
   ],
-  providers: [ {
-    provide: HTTP_INTERCEPTORS, useClass: CacheInterceptor, multi: true
-  }],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {
