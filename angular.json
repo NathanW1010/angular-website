@@ -24,7 +24,7 @@
               "path": "src/custom-webpack.config.js",
               "replaceDuplicatePlugins": true
             },
-            "outputPath": "dist/angular-website",
+            "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -43,7 +43,6 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/nweiland-website/",
               "budgets": [
                 {
                   "type": "initial",
