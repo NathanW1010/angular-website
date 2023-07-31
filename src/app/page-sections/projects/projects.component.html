@@ -1,15 +1,9 @@
 <p-divider id="projects"></p-divider>
 <div class="container">
   <h2>Projects</h2>
-
-
-
-
-  <ngx-slick-carousel class="carousel"
-                      #slickModal="slick-carousel"
-                      [config]="slideConfig">
-
-    <ng-container ngxSlickItem *ngFor="let project of projects">
+  <owl-carousel-o [options]="customOptions">
+    <ng-container *ngFor="let project of projects">
+      <ng-template carouselSlide>
         <p-card header="{{project.title}}" subheader="{{project.projectType}}"
                 class="flex align-items-center justify-content-center font-bold m-2 border-card">
           <div class="card-content">
@@ -31,9 +25,7 @@
             </div>
           </div>
         </p-card>
+      </ng-template>
     </ng-container>
-  </ngx-slick-carousel>
-
-
-
+  </owl-carousel-o>
 </div>
