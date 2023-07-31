@@ -17,8 +17,8 @@ import {ContactComponent} from './page-sections/contact/contact.component';
 import {WorkExperienceComponent} from './page-sections/work-experience/work-experience.component';
 import {EducationComponent} from './page-sections/education/education.component';
 
-import {CarouselModule} from 'ngx-owl-carousel-o';
-import {NgOptimizedImage} from '@angular/common'
+import {SlickCarouselModule} from 'ngx-slick-carousel';
+import {NgOptimizedImage} from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -39,7 +39,7 @@ import {NgOptimizedImage} from '@angular/common'
     DividerModule,
     TimelineModule,
     PanelModule,
-    CarouselModule,
+    SlickCarouselModule,
     NgOptimizedImage
   ],
   providers: [],
