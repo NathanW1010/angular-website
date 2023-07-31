@@ -1,5 +1,4 @@
 import {Component} from '@angular/core';
-import {OwlOptions} from 'ngx-owl-carousel-o';
 import {Project} from '../../interface/project';
 import {PROJECT_LIST} from '../../project-list';
 
@@ -11,6 +10,11 @@ import {PROJECT_LIST} from '../../project-list';
 export class ProjectsComponent {
   projects: Project[] = PROJECT_LIST;
 
+
+
+  slideConfig = { slidesToShow: 4, slidesToScroll: 4 };
+
+  /*
   customOptions: OwlOptions = {
     loop: true,
     autoplay: false,
@@ -36,5 +40,6 @@ export class ProjectsComponent {
       }
     }
   };
+   */
 
 }
