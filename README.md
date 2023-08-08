@@ -1,27 +1,17 @@
 # NweilandWebsite
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0. This project is currently running on Angular version 16.1.4.
 
-## Development server
+![Website Preview](https://github.com/NathanW1010/nweiland-website/assets/132369504/159df6f0-97e1-4181-b93d-747ef3c841b2)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Overview
 
-## Code scaffolding
+This project was created to practice using Angular while working as a full stack developer intern at Winsupply during the Summer of 2023. The website primarily uses [PrimeNG](https://primeng.org/) for styling and its components as well as a carousel using [Ngx Owl Carousel-O](https://www.npmjs.com/package/ngx-owl-carousel-o).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Hosting and Domain
 
-## Build
+GitHub Pages is currently being used as a host with a custom domain purchased from Google Domains. The website can be found at https://www.nathanweiland.com.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Open Graph Meta Tags
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To allow for visually appealing links through social media, open graph meta tags were used. Metatags.io, a great resource for checking the appearance of links posted on social media, can be found [here](https://metatags.io/?url=www.nathanweiland.com).
