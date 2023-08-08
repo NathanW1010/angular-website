@@ -15,3 +15,9 @@ GitHub Pages is currently being used as a host with a custom domain purchased fr
 ## Open Graph Meta Tags
 
 To allow for visually appealing links through social media, open graph meta tags were used. Metatags.io, a great resource for checking the appearance of links posted on social media, can be found [here](https://metatags.io/?url=www.nathanweiland.com).
+
+## Lighthouse
+
+Chrome's open-source tool, [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/), was heavily used to check website performance and ensure that best practices and accessibility were maintained for this project.
+
+![image](https://github.com/NathanW1010/nweiland-website/assets/132369504/05ffe267-5eeb-4b59-bbd8-d1091e17946e)
